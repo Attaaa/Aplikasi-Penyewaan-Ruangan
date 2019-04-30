@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Style Css -->
     <link rel="stylesheet" href="<?php echo base_url("/assets/css/");?>style.css">
+    <link rel="stylesheet" href="<?php echo base_url("/assets/css/");?>admin.css">
     <title>Login Admin</title>
 </head>
+<body>
 
-    <div class="container">
+    <div class="login-container">
         <h2>Login Admin</h2>
         <form action="" method="post">
             <div class="form-group">
@@ -25,7 +27,9 @@
                 <label for="pass">Password</label>
                 <input type="password" class="form-control" id="pass">
             </div>
+            <button class="btn btn-custom btn-login w-100" type="submit" value="login">LOGIN</button>
         </form>
     </div>
 
 <body>
+</html>

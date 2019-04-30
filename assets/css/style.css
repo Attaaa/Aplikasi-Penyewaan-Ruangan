@@ -3,6 +3,35 @@ body, html {
     padding: 0;
     font-family: 'Open Sans', sans-serif !important;
 }
+
+/* Bootstrap Custom */
+
+.form-control{
+    border-radius: 0;
+}
+
+.form-control:focus{
+    border-color: #e74c3c !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(192, 57, 43, .25) !important;
+}
+
+.btn-custom{
+    color: white;
+    background-color: #c0392b;
+    border-color: #c0392b;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.btn-custom:hover{
+    color: white;
+    opacity: .8;
+    transition: .3s ease-in;
+}
+
+/* End Bootstrap Custom */
+
 /* PENYEWAAN */
 a:hover {
     transition: .2s ease-in-out;

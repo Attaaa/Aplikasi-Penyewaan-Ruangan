@@ -11,4 +11,8 @@ class Admin extends CI_Controller{
         $this->load->view('admin/request_peminjaman');
     }
 
+    function on_going(){
+        $this->load->view('admin/on_going');
+    }
+
 }

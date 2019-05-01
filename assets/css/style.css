@@ -30,6 +30,11 @@ body, html {
     transition: .3s ease-in;
 }
 
+.btn-custom:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(192, 57, 43, .25) !important;
+}
+
 /* End Bootstrap Custom */
 
 /* PENYEWAAN */
